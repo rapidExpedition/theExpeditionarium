@@ -1,4 +1,8 @@
-# theExpeditionarium
+<a href="index.html"><img
+        src = "rpdExp_logo.png"
+        style = "border: 0;"
+        width = "25"
+    /></a>
 
 [rapidExpedition]()
 
@@ -20,10 +24,8 @@
 [expeditionaryPhilosophy]()
 
 <!-- set a default theme -->
-[gimmick:theme (inverse: false)](cyborg)
+[gimmick:theme (inverse: false)](bootstrap)
 
 <!-- show a theme chooser in the menu bar -->
 [gimmick:ThemeChooser](Change theme)
 
-<!-- show a fork me on github ribbon -->
-[gimmick:forkmeongithub](https://github.com/Expedition/theExpeditionarium/)
