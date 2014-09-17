@@ -23,6 +23,12 @@
 
 [expeditionaryPhilosophy]()
 
+[contribute]()
+
+ * [on GitHub](https://github.com/rapidExpedition/theExpeditionarium)
+ - - - -
+ * [how to contribute](https://dl.dropboxusercontent.com/u/50155576/theExpeditionarium/index.html#!index.md#How_to_Contribute)
+
 <!-- set a default theme -->
 [gimmick:theme (inverse: false)](bootstrap)
 
