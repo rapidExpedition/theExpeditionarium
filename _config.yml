@@ -22,7 +22,7 @@ title:               'theExpeditionarium'
 tagline:             'Ideas as technology.'
 description:         'Birthplace of Expeditionary Philosophy'
 url:                 http://expeditionarium.netlify.com/
-baseurl:             /
+baseurl:             ''
 paginate:            5
 paginate_path:       blog/page:num
 
