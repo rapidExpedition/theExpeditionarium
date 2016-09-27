@@ -1,0 +1,78 @@
+# Dependencies
+markdown:            kramdown
+kramdown:
+  auto_ids:          true
+  footnote_nr:       1
+  entity_output:     as_char
+  toc_levels:        1..6
+  enable_coderay:       false
+
+highlighter:         rouge
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-paginate
+
+# Permalinks
+#
+permalink:           pretty
+
+# Setup
+title:               'theExpeditionarium'
+tagline:             'Ideas as technology.'
+description:         'Birthplace of Expeditionary Philosophy'
+url:                 http://expeditionarium.netlify.com/
+baseurl:             /
+paginate:            5
+paginate_path:       blog/page:num
+
+# About/contact
+author:
+  name:              'rapidExpedition'
+  url:               https://github.com/rapidExpedition
+
+# Custom vars
+github:
+  repo:              https://github.com/rapidExpedition/rapidExpedition
+
+prose:
+  ignore:
+    - /\..*
+    - /_config.yml
+    - /atom.xml
+    - /LICENSE.md
+    - /_layouts
+    - /_includes
+    - /public
+    - /blog
+  metadata:
+    "":
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
