@@ -20,8 +20,8 @@ permalink:           pretty
 # Setup
 title:               'theExpeditionarium'
 tagline:             'Ideas as technology.'
-description:         'Birthplace of Expeditionary Philosophy'
-url:                 http://expeditionarium.netlify.com/
+description:         'Training grounds for Expeditionary Philosophy'
+url:                 http://rapidexpedition.org/
 baseurl:             ''
 paginate:            5
 paginate_path:       blog/page:num
@@ -33,7 +33,7 @@ author:
 
 # Custom vars
 github:
-  repo:              https://github.com/rapidExpedition/rapidExpedition
+  repo:              https://github.com/rapidExpedition/theExpeditionarium
 
 prose:
   ignore:
