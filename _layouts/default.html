@@ -12,8 +12,12 @@
     <div class="wrap">
       <div class="masthead">
         <div class="container">
+          <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+          <span class="ico pencil" onclick="goToProse('{{ site.github.repo }}', '{{ page.path }}')"></span>
+          <span class="octicon-octoface" onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')"></span>
+
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
         </div>
@@ -23,8 +27,6 @@
         {{ content }}
       </div>
     </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script>
       (function(document) {
