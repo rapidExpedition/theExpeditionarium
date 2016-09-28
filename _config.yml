@@ -45,6 +45,7 @@ prose:
     - /_includes
     - /public
     - /blog
+    - /index.md
   metadata:
     "":
       - name: "layout"

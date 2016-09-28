@@ -4,4 +4,4 @@ title: Welcome
 published: true
 ---
 
-<img width="100%" src="/public/img/triSephirot.svg" alt="triSephirot" />
+<a href="/Welcome"><img width="100%" src="/public/img/triSephirot.svg" alt="triSephirot" /></a>
