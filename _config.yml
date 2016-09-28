@@ -46,6 +46,11 @@ prose:
     - /public
     - /blog
     - /index.md
+    - /Gemfile
+    - /Gemfile.lock
+    - /404.html
+    - /.gitignore
+    - /.gitmodules
   metadata:
     "":
       - name: "layout"
