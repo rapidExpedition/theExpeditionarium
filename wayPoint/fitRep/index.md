@@ -1,7 +1,7 @@
 ---
-layout: page
-published: false
-title: fitSum
+layout: default
+published: true
+title: fitRep
 ---
 
 This project will entail, firstly, the creation of a universal syntax for tracking workouts in plain text, but it will also incorporate an application for the purpose of analyzing data saved in that syntax.  This will be an unbiased and extensible personal fitness-tracking solution with the secondary goal of being adaptable for use in a social media context and particularly in a distributed, non-centralized fashion.
