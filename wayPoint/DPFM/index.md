@@ -1,3 +1,9 @@
+---
+layout: default
+published: true
+title: DPFM
+---
+
 DPFM stands for *Distributed Playlist Formatting Markdown*.  It is a syntax for writing distributable (shareable) playlists in a human-legible manner.  It is inspired by the XML based [XSPF](http://www.xspf.org/) specification.  It is meant to be easily and intuitively accessible for drafting and editing as a plaintext file and versatile enough to allow a scaleable level of accuracy in resolving audio tracks between different audio libraries.
 
 While primarily a free and open filetype, intended for compatibility and use across platforms, it will aslo be used in a pilot-program of the same name for proof-of-concept as well as for innovation beyond the modest scope of the filetype.
