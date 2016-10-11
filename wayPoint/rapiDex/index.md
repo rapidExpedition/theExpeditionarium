@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: default
 published: true
 title: rapiDex
 ---
 
 This project--under the working title, *rapiDex*--is intended to produce a CMS which incorporates the  key features of [Draft](https://draftin.com/), [Gollum](https://github.com/gollum/gollum), [TiddlyWiki](http://tiddlywiki.com/). This would include a minimalistic interface, git-backed version control, and the ability to load dynamically as a [single page application](http://tiddlywiki.com/#SinglePageApplication) among other aspects from all three and beyond from similar notable applications.
 
-## Why Another CMS? 
+## Why Another CMS? 
 
 The world of content management systems and publishing platforms is diverse and disparate and fraught with divergent notions of what is necessary or not and why. What they all share in common, however, is that they handle all the heavy-lifting involved with making raw content presentable--usually in a published fashion.
 
