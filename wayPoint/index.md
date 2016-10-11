@@ -8,6 +8,6 @@ published: true
 
 ## Projects
 
- * [rapiDex](/rapiDex/index.md)
- * [fitRep](/fitRep/index.md)
- * [DPFM](/DPFM/index.md)
+ * [rapiDex](./rapiDex)
+ * [fitRep](./fitRep)
+ * [DPFM](./DPFM)
