@@ -8,8 +8,6 @@ title: pranaBindu
 ***Note:***
 > *This is a **[WIP](#wip)** and subject to change and further development.*
 
-</small>
-
 Few things in life are so reliably and universally persistent as stress.  The stress of pain or struggle or trauma of any kind--though perhaps more commonly referred to as suffering, though suffering is but a piece of a larger experience of discomfort within and perhaps uniquely of the human condition--this stress is perhaps the lynchpin upon which we hinge most of our life and work, collectively or individually.  We seek generally and in most of our endeavors to somehow manage our stress, and sometimes we do this by electing to engage in stressful activity on our own terms.
 
 It is this voluntary inducement of stress which we seek here to clarify.  But to what end might we clarify this? most particularly when we do so as a sort of honing this most valuable of tools.  And so again, valuable for what?  What we will contend here, as we might contend of all valuations, is that we measure such against its capacity for stimulating growth and in its most broad and coherent sense.
