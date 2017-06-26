@@ -7,6 +7,7 @@ title: pranaBindu
 <small>
 ***Note:***
 > *This is a **[WIP](#wip)** and subject to change and further development.*
+
 </small>
 
 Few things in life are so reliably and universally persistent as stress.  The stress of pain or struggle or trauma of any kind--though perhaps more commonly referred to as suffering, though suffering is but a piece of a larger experience of discomfort within and perhaps uniquely of the human condition--this stress is perhaps the lynchpin upon which we hinge most of our life and work, collectively or individually.  We seek generally and in most of our endeavors to somehow manage our stress, and sometimes we do this by electing to engage in stressful activity on our own terms.
