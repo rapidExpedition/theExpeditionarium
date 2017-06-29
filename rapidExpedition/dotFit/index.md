@@ -4,7 +4,7 @@ title: .fit
 published: true
 ---
 <center>
- ![][header]
+ ![](public/img/opSepals.jpg)
 
 The archaic dichotomy of mind and body is one which manifests most tellingly in the deep divide between intellectual and physical pursuits evident across cultures.  To some extent is this divide integral to the demands of particular labors and the dimensions of their utility to society.  Certainly when it comes to budgeting one's time toward becoming specialized in one pursuit or a set of pursuits might one understandably do so at the expense of all else--more specifically, at the expense of that which might seem diametrically opposed to such specialization.
 
@@ -23,5 +23,3 @@ Here are listed some efforts toward articulating the employment of the *expediti
 
    1. <small id="f1"> The coinage of [Yukio Mishima](https://g.co/kgs/osfEL5) in which he asserts that the essentially corrosive function of words upon the world and the body in particular finds reconciliation in a martial orientation which demands a virtuosity of physical form. </small> [↩](#a1)
    2. <small id="f2"> The [Expeditionary Mode](../expeditionaryMode.md) is a coinage of this greater work (rapidExpedition) and blanket term for all ways of life which seek for greater efficiency and efficacy, usually by technical means. </small> [↩](#a2)
-
-[header]: https://lh5.googleusercontent.com/-fNJrtrNZBhQ/Uo3CfqvVSxI/AAAAAAAAEtA/igLKFqGVowg/w400-h200-no/old-gym1.jpg
