@@ -3,9 +3,11 @@ layout: page
 title: .fit
 published: true
 ---
-<center>
- ![oldGym](.../public/img/oldGym.jpg)
-</center>
+
+<p align="center">
+ <img src="http://www.rapidexpedition.org/public/img/oldGym.jpg">
+</p>
+
 
 The archaic dichotomy of mind and body is one which manifests most tellingly in the deep divide between intellectual and physical pursuits evident across cultures.  To some extent is this divide integral to the demands of particular labors and the dimensions of their utility to society.  Certainly when it comes to budgeting one's time toward becoming specialized in one pursuit or a set of pursuits might one understandably do so at the expense of all else--more specifically, at the expense of that which might seem diametrically opposed to such specialization.
 
