@@ -24,6 +24,5 @@ Here are listed some efforts toward articulating the *mode of rapid expedition* 
 
   ---
 
-<small>
-   1. <p id="f1"> The coinage of [Yukio Mishima](https://g.co/kgs/osfEL5) in which he asserts that the essentially corrosive function of words upon the world and the body in particular finds reconciliation in a martial orientation which demands a virtuosity of physical form. [↩](#a1)</p>
-</small>
+<sup>
+1. <small id="f1"> The coinage of [Yukio Mishima](https://g.co/kgs/osfEL5) in which he asserts that the essentially corrosive function of words upon the world and the body in particular finds reconciliation in a martial orientation which demands a virtuosity of physical form. [↩](#a1)</small>
