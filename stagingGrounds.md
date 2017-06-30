@@ -4,7 +4,7 @@ title: Staging Grounds
 published: true
 ---
 
-<img align="right" src="public/img/opSepals.jpg" alt="Operation Sepals" style="width:33%">
+<img align="right" src="http://www.rapidexpedition.org/public/img/opSepals.jpg" alt="Operation Sepals" style="width:33%">
 
 The work represented here is an attempt to establish and develop a set of philosophical principles and to do so collaboratively by employing appropriate technologies for ease of iteration and publication.  Here, we will survey variations of what we refer to as the *expeditionary mode* and more specifically will we explore and employ what might best be referred to as the mode of [rapid expedition](rapidExpedition).
 
