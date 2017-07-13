@@ -14,8 +14,8 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == "Staging Grounds" %} active{% endif %}" href="{{ site.baseurl }}stagingGrounds/">Staging Grounds</a>
-    <a class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}" href="{{ site.baseurl }}blog/">Blog</a>
+    <a class="sidebar-nav-item{% if page.title == "Staging Grounds" %} active{% endif %}" href="{{ "/stagingGrounds/" | relative_url }}">Staging Grounds</a>
+    <a class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}" href="{{ "/blog/" | relative_url }}">Blog</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with

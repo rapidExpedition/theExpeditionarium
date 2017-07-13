@@ -5,7 +5,7 @@ published: true
 ---
 
 <p align="center">
- <img src="http://www.rapidexpedition.org/public/img/oldGym.jpg">
+ <img src="../../public/img/oldGym.jpg">
 </p>
 
 
