@@ -25,7 +25,7 @@ description:         'Staging grounds for rapidExpedition and the development of
 #baseurl:             '/'
 paginate:            5
 paginate_path:       blog/page:num
-sidebarImage:        '/public/img/A-12blackbirdConstruction1964.jpg'
+sidebarImage:        'A-12blackbirdConstruction1964.jpg'
 
 # About/contact
 author:
