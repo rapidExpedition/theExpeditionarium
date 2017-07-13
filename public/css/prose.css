@@ -1,8 +1,8 @@
 @font-face {
   font-family:'Prose';
-    src:url('/public/fonts/prose-129b77953cd92a716f7e5224f4de015e.eot');
-    src:url('/public/fonts/prose-129b77953cd92a716f7e5224f4de015e.eot?#iefix') format('embedded-opentype'),
-        url('/public/fonts/prose-129b77953cd92a716f7e5224f4de015e.woff') format('woff');
+    src:url('../../public/fonts/prose-129b77953cd92a716f7e5224f4de015e.eot');
+    src:url('../../public/fonts/prose-129b77953cd92a716f7e5224f4de015e.eot?#iefix') format('embedded-opentype'),
+        url('../../public/fonts/prose-129b77953cd92a716f7e5224f4de015e.woff') format('woff');
   font-weight:700;
   font-style:normal;
 }
@@ -58,4 +58,3 @@
     border-bottom-width: .15rem;
   }
 }
-

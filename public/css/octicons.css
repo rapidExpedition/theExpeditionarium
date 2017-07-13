@@ -1,8 +1,8 @@
 @font-face {
   font-family:'octicons';
-    src:url('/public/fonts/octicons-0df9c4e2ad4011950f7865f744fd51438f6e9ed6.eot');
-    src:url('/public/fonts/octicons-0df9c4e2ad4011950f7865f744fd51438f6e9ed6.eot#iefix') format('embedded-opentype'),
-        url('/public/fonts/octicons-42317b4656db563d0370825b447f9df85a9f4bd5.woff') format('woff');
+    src:url('../../public/fonts/octicons-0df9c4e2ad4011950f7865f744fd51438f6e9ed6.eot');
+    src:url('../../public/fonts/octicons-0df9c4e2ad4011950f7865f744fd51438f6e9ed6.eot#iefix') format('embedded-opentype'),
+        url('../../public/fonts/octicons-42317b4656db563d0370825b447f9df85a9f4bd5.woff') format('woff');
   font-weight:normal;
   font-style:normal;
 }
