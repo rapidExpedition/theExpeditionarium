@@ -16,10 +16,10 @@ function printSidebar(tree, indentation) {
         if (tree[key].__url__ == undefined) {
             if (typeof tree[key] != 'object')
                 continue;
-            printSidebar.html +=
-                '<div class="sidebar-nav-item" style="cursor: pointer">'
-                + repeatString(indentation, printSidebar.depth) + key
-                + '</div>\n';
+//            printSidebar.html +=
+//                '<div class="sidebar-nav-item" style="cursor: pointer">'
+//                + repeatString(indentation, printSidebar.depth) + key
+//                + '</div>\n';
         } else {
             if (tree[key].__active__) {
                 printSidebar.html += '<a class="sidebar-nav-item active" href="'
