@@ -5,6 +5,9 @@ title: DPFM
 root: ../../
 ---
 
+> ##### Note:
+>  *This is a **[WIP](#wip)** and subject to change and further development.*
+
 DPFM stands for *Distributed Playlist Formatting Markdown*.  It is a syntax for writing distributable (shareable) playlists in a human-legible manner.  It is inspired by the XML based [XSPF](http://www.xspf.org/) specification.  It is meant to be easily and intuitively accessible for drafting and editing as a plaintext file and versatile enough to allow a scaleable level of accuracy in resolving audio tracks between different audio libraries.
 
 While primarily a free and open filetype, intended for compatibility and use across platforms, it will aslo be used in a pilot-program of the same name for proof-of-concept as well as for innovation beyond the modest scope of the filetype.
@@ -22,3 +25,6 @@ It should be readily apparent within the app whether the tracks are available an
 It might also be useful to allow for forking playlists and submitting pull requests to correct a track's data or at least get feedback on the accuracy of the tracklisting.  Playlists might also undergo slight tweaks through their lifetime, and through the use of IPFS, those changes could be tracked.  In such a case, a person who had liked a previous version could see the change and determine whether they want to support the new version or the old version.
 
 This might seem a bit complicated for something as simple as a playlist, but considering what playlists are often used for, the construction of one can make or break the mood around an activity very quickly.
+
+> ##### WIP:
+>  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](/siteWiki/contributionGuidelines)*

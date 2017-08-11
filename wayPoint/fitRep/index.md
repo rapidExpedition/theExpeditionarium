@@ -5,6 +5,9 @@ title: fitRep
 root: ../../
 ---
 
+> ##### Note:
+>  *This is a **[WIP](#wip)** and subject to change and further development.*
+
 This project will entail, firstly, the creation of a universal syntax for tracking workouts in plain text, but it will also incorporate an application for the purpose of analyzing data saved in that syntax.  This will be an unbiased and extensible personal fitness-tracking solution with the secondary goal of being adaptable for use in a social media context and particularly in a distributed, non-centralized fashion.
 
 This would be, in effect, a combination of the simplicity of [weightxreps](http://weightxreps.net) and the versatility of [thesquatrack](http://thesquatrack.com), but in essence, very different from either; being first a core set of tracking technologies and standards, and only extending beyond that as proof of concept.
@@ -192,3 +195,6 @@ It should be clear that the intended means inputing a log entry is simply by dra
 However, as the tracker may first come to life on the command line, it could be possible to data through prompts which include tooltips and the ability break from the data's entry to enter comments or captions with a keystroke.
 
 The next step would be standalone app utilizing responsive web design principles (likely using the [Electron Platform](http://electron.atom.io/)).
+
+> ##### WIP:
+>  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](/siteWiki/contributionGuidelines)*

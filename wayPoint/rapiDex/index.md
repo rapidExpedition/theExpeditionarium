@@ -5,6 +5,9 @@ title: rapiDex
 root: ../../
 ---
 
+> ##### Note:
+>  *This is a **[WIP](#wip)** and subject to change and further development.*
+
 This project--under the working title, *rapiDex*--is intended to produce a CMS which incorporates the  key features of [Draft](https://draftin.com/), [Gollum](https://github.com/gollum/gollum), [TiddlyWiki](http://tiddlywiki.com/), [Prose](http://prose.io/), and even [Asana](https://asana.com/) or to some small extent, [Apostrophe](http://apostrophecms.org/). This would include a minimalistic responsive interface, git-backed version control, and the ability to load dynamically as a [single page application](http://tiddlywiki.com/#SinglePageApplication) among other aspects from all three and beyond from similar notable applications.
 
 Possibly the nearest kin to this concept would be [CosmoCMS](http://www.cosmocms.org/), but one key difference would be that that the editing would directly interact with a git repository and that the version history would also be fetched from the repo, rather than the CMS keeping its own.  The seamless editing interface style used in that app is also similar to what the one in use at [Medium](https://medium.com/) and very similar to what rapiDex is after.
@@ -28,3 +31,6 @@ The app itself should probably only have access to repositories configured to us
 ## Rapid back-end
 
 rapiDex should essentially piggyback on various deployment platforms like [Github](https://github.com/) and [Netlify](https://www.netlify.com/).  It's static site generation should aim to achieve a rapid build time to enable the most seamless integration possible with such platforms' continuous deployment features.  We hopefully be able to use APIs from those platforms to be able to retrieve the status of deployments; however, if a user's cache contains their own most current version of the content, and we are retrieving the status of that content directly from the repository, then perhaps the status of the static site's deployment is irrelevant.  This is particularly true considering that no portion of the site's configuration (CSS or YAML, for instance) should be malleable from within the CMS interface.
+
+> ##### WIP:
+>  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](/siteWiki/contributionGuidelines)*
