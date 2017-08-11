@@ -2,6 +2,7 @@
 layout: default
 title: rapidExpedition.fit
 published: true
+root: ../../
 ---
 
 <p align="center">
@@ -18,7 +19,7 @@ In short, we seek here for a coherent intellectualization of life and limb at th
 ## Articulations
 Here are listed some efforts toward articulating the *mode of rapid expedition* as it relates to physical form and function:
 
-* [Prana Bindu](/wayPoint/pranaBindu) प्राण बिंदु
+* [Prana Bindu](../../wayPoint/pranaBindu) प्राण बिंदु
   > A tripartite approach toward formulating a complete and well-rounded physical training regimen with emphasis upon the importance of strength, particularly to the extent that it contributes to the development of martial prowess.
 
 

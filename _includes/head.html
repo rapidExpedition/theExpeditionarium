@@ -15,49 +15,53 @@
   </title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{{ "/public/css/poole.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/public/css/syntax.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/public/css/lanyon.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/public/css/prose.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/public/css/octicons.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/public/flexslider/flexslider.css" | absolute_url }}">
-  <link rel="stylesheet" href="{{ "/public/css/all.css" | absolute_url }}">
+
+  <!-- #DOING: trying a new approach to the relative URL issue as per [this post](https://stackoverflow.com/a/8304028/8304877) id:1 +port-a-url -->
+  {% capture root %}{% if page.root %}{{ page.root }}{% elsif post.root %}{{ post.root }}{% else %}{{ default.root }}{% endif %}{% endcapture %}
+
+  <link rel="stylesheet" href="{{ root }}{{ "public/css/poole.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ root }}{{ "public/css/syntax.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ root }}{{ "public/css/lanyon.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ root }}{{ "public/css/prose.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ root }}{{ "public/css/octicons.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ root }}{{ "public/flexslider/flexslider.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ root }}{{ "public/css/all.css" | relative_url }}">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
   <!-- ****** faviconit.com favicons ****** -->
   <!-- Basic favicons -->
-  <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="{{ "/public/img/favicons/favicon" | absolute_url }}">
-  <link rel="shortcut icon" type="image/x-icon" href="{{ "/public/img/favicons/favicon" | absolute_url }}">
-  <!--[if IE]><link rel="shortcut icon" href="{{ "/public/img/favicons/favicon" | absolute_url }}"><![endif]-->
+  <link rel="shortcut icon" sizes="16x16 32x32 48x48 64x64" href="{{ root }}{{ "public/img/favicons/favicon" | relative_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ root }}{{ "public/img/favicons/favicon" | relative_url }}">
+  <!--[if IE]><link rel="shortcut icon" href="{{ root }}{{ "public/img/favicons/favicon" | relative_url }}"><![endif]-->
   <!-- For Opera Speed Dial -->
-  <link rel="icon" type="image/png" sizes="195x195" href="{{ "/public/img/favicons/favicon-195.png" | absolute_url }}">
+  <link rel="icon" type="image/png" sizes="195x195" href="{{ root }}{{ "public/img/favicons/favicon-195.png" | relative_url }}">
   <!-- For iPad with high-resolution Retina Display running iOS ≥ 7 -->
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ "/public/img/favicons/favicon-152.png" | absolute_url }}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ root }}{{ "public/img/favicons/favicon-152.png" | relative_url }}">
   <!-- For iPad with high-resolution Retina Display running iOS ≤ 6 -->
-  <link rel="apple-touch-icon" sizes="144x144" href="{{ "/public/img/favicons/favicon-144.png" | absolute_url }}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{{ root }}{{ "public/img/favicons/favicon-144.png" | relative_url }}">
   <!-- For iPhone with high-resolution Retina Display running iOS ≥ 7 -->
-  <link rel="apple-touch-icon" sizes="120x120" href="{{ "/public/img/favicons/favicon-120.png" | absolute_url }}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ root }}{{ "public/img/favicons/favicon-120.png" | relative_url }}">
   <!-- For iPhone with high-resolution Retina Display running iOS ≤ 6 -->
-  <link rel="apple-touch-icon" sizes="114x114" href="{{ "/public/img/favicons/favicon-114.png" | absolute_url }}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ root }}{{ "public/img/favicons/favicon-114.png" | relative_url }}">
   <!-- For Google TV devices -->
-  <link rel="icon" type="image/png" sizes="96x96" href="{{ "/public/img/favicons/favicon-96.png" | absolute_url }}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{{ root }}{{ "public/img/favicons/favicon-96.png" | relative_url }}">
   <!-- For iPad Mini -->
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ "/public/img/favicons/favicon-76.png" | absolute_url }}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ root }}{{ "public/img/favicons/favicon-76.png" | relative_url }}">
   <!-- For first- and second-generation iPad -->
-  <link rel="apple-touch-icon" sizes="72x72" href="{{ "/public/img/favicons/favicon-72.png" | absolute_url }}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ root }}{{ "public/img/favicons/favicon-72.png" | relative_url }}">
   <!-- For non-Retina iPhone, iPod Touch and Android 2.1+ devices -->
-  <link rel="apple-touch-icon" href="{{ "/public/img/favicons/favicon-57.png" | absolute_url }}">
+  <link rel="apple-touch-icon" href="{{ root }}{{ "public/img/favicons/favicon-57.png" | relative_url }}">
   <!-- Windows 8 Tiles -->
   <meta name="msapplication-TileColor" content="#FFFFFF">
-  <meta name="msapplication-TileImage" content="{{ "/public/img/favicons/favicon-144.png" | absolute_url }}">
+  <meta name="msapplication-TileImage" content="{{ "public/img/favicons/favicon-144.png" | relative_url }}">
   <!-- ****** faviconit.com favicons ****** -->
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ "/atom.xml">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ root }}{{ "atom.xml">
 
   <!-- JAVASCRIPT -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="{{ "/public/flexslider/jquery.flexslider-min.js" | absolute_url }}"></script>
-  <script src="{{ "/public/js/URI.js" | absolute_url }}"></script>
-  <script src="{{ "/public/js/all.js" | absolute_url }}"></script>
+  <script src="{{ root }}{{ "public/flexslider/jquery.flexslider-min.js" | relative_url }}"></script>
+  <script src="{{ root }}{{ "public/js/URI.js" | relative_url }}"></script>
+  <script src="{{ root }}{{ "public/js/all.js" | relative_url }}"></script>
 </head>

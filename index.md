@@ -2,6 +2,7 @@
 layout: default
 title:
 published: true
+root: ./
 ---
 
 <center>

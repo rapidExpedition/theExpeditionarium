@@ -16,10 +16,10 @@ function printSidebar(tree, indentation) {
         if (tree[key].__url__ == undefined) {
             if (typeof tree[key] != 'object')
                 continue;
-//            printSidebar.html +=
-//                '<div class="sidebar-nav-item" style="cursor: pointer">'
-//                + repeatString(indentation, printSidebar.depth) + key
-//                + '</div>\n';
+            printSidebar.html +=
+                '<div class="sidebar-nav-item" style="cursor: pointer">'
+                + repeatString(indentation, printSidebar.depth) + key
+                + '</div>\n';
         } else {
             if (tree[key].__active__) {
                 printSidebar.html += '<a class="sidebar-nav-item active" href="'
@@ -59,59 +59,6 @@ function goToGitHub(repo, page) {
     window.location = repo + '/edit/master/' + page;
 }
 
-// TODO Pagination: http://developer.github.com/guides/traversing-with-pagination
-// TODO OAuth or Caching/Cookies? http://developer.github.com/v3/oauth/
-// TODO Make order more random?
-
-function printHireables(organization) {
-    var hireables = document.getElementById('hireables');
-    if (hireables) {
-        $.ajax({
-            url: 'https://api.github.com/orgs/' + organization + '/members'
-        }).then(function(members) {
-            for (var i in members) {
-                $.ajax({
-                    url: 'https://api.github.com/users/' + members[i].login
-                }).then(function(member) {
-                    if (member.hireable) {
-                        hireables.innerHTML += printHireableRow(member);
-                    }
-                });
-            }
-        });
-    }
-}
-
-function printHireableRow(hireable) {
-    var blog = hireable.blog;
-    var blog_normalized;
-    if (blog == null) {
-        blog = "";
-        blog_normalized = "";
-    } else {
-        var uri = new URI(blog);
-        if (!uri.protocol()) {
-            uri.protocol("http");
-        }
-        blog_normalized = uri.toString();
-    }
-    var output =
-    '    <tr>\n' +
-    '      <td><a href="' + hireable.html_url + '"><img src="'     + hireable.avatar_url + '" /></a></td>\n' +
-    '      <td><a href="' + hireable.html_url + '">'               + hireable.name       + '</a></td>\n'     +
-    '      <td><a href="' + blog_normalized   + '">'               + blog                + '</a></td>\n'     +
-    '      <td style="text-align: center">'   + hireable.followers + '</td>\n'           +
-    '      <td style="text-align: center">'   + hireable.following + '</td>\n'           +
-    '    </tr>\n';
-    return output;
-}
-
-$(document).ready(function() {
-  jQuery.support.cors = true;
-
-  $('.flexslider').flexslider({
-    animation: "slide"
-  });
-
-  printHireables('ccppbrasil');
-});
+// TODO: Pagination: http://developer.github.com/guides/traversing-with-pagination id:0
+// TODO: OAuth or Caching/Cookies? http://developer.github.com/v3/oauth/ id:1
+// TODO: Make order more random? id:3

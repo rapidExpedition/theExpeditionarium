@@ -2,6 +2,7 @@
 layout: default
 title: Staging Grounds
 published: true
+root: ../
 ---
 
 <img align="right" src="http://www.rapidexpedition.org/public/img/opSepals.jpg" alt="Operation Sepals" style="width:33%" hspace="15">

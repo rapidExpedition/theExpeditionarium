@@ -2,6 +2,7 @@
 layout: default
 published: true
 title: DPFM
+root: ../../
 ---
 
 DPFM stands for *Distributed Playlist Formatting Markdown*.  It is a syntax for writing distributable (shareable) playlists in a human-legible manner.  It is inspired by the XML based [XSPF](http://www.xspf.org/) specification.  It is meant to be easily and intuitively accessible for drafting and editing as a plaintext file and versatile enough to allow a scaleable level of accuracy in resolving audio tracks between different audio libraries.
@@ -14,7 +15,7 @@ More fundamentally, the use of IPFS could be used to distribute these playlists 
 
 The user could also permanently contribute to hosting playlists by either liking or saving the playlist or by following a profile and thereby hosting that entire profile's contents and submissions.
 
-This system would not include any general purpose mediaplayer (a user would not explicitly be able to browse their music library) and would likely utilize the user's own choice of mediaplayer to resolve tracks for playback.  Instead, the standalone app would focus solely on playlist discovery and for browsing a playlist library.  It should also have a means of syncing playlists with other mediaplayers on a system or even in the cloud.
+This system would not include any general purpose mediaplayer (a user would not explicitly be able to browse their music library) and would likely utilize the user's own choice of mediaplayer to resolve tracks for playback.  Instead, the standalone app would focus solely on playlist discovery and for browsing a playlist library.  It should also have a means of syncing playlists with other media-players on a system or even in the cloud.
 
 It should be readily apparent within the app whether the tracks are available and how accurately the tracks seem to match those specified in the playlist (leaving some leeway for errors in track IDs).
 

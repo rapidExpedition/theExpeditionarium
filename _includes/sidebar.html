@@ -6,7 +6,7 @@
 <div class="sidebar" id="sidebar">
 
   <div class="sidebar-image">
-    <img src="{{ "/public/img/" | absolute_url }}{{ site.sidebarImage }}">
+    <img src="{{ root }}{{ "public/img/" | relative_url }}{{ site.sidebarImage }}">
   </div>
 
   <div class="sidebar-item">
@@ -14,19 +14,25 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == "Staging Grounds" %} active{% endif %}" href="{{ "/stagingGrounds/" | relative_url }}">Staging Grounds</a>
-    <a class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}" href="{{ "/blog/" | relative_url }}">Blog</a>
+    <a class="sidebar-nav-item{% if page.title == "Staging Grounds" %} active{% endif %}" href="{{ root }}{{ "stagingGrounds/" | relative_url }}">Staging Grounds</a>
+    <a class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}" href="{{ root }}{{ "blog/" | relative_url }}">Blog</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
       `layout: page` in the front-matter. See readme for usage.
     {% endcomment %}
 
+    {% comment %}
+      // DONE: trying to figure out the relative URL issue to get the site working properly across platforms, including IPFS gateways id:1 +port-a-url
+    {% endcomment %}
+
+    {% capture root %}{% if page.root %}{{ page.root }}{% elsif post.root %}{{ post.root }}{% else %}{{ default.root }}{% endif %}{% endcapture %}
+
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ "" | absolute_url }}{{ node.url }}">{{ node.title }}</a>
+          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ root }}{{ node.url | remove_first:'/' }}">{{ node.title }}</a> <!-- #TODO: figure out how to activate the page under which a sub-page is accessed and/or figure out some kind of nesting scheme that's not too cumbersome  id:0 +sidebarToC -->
         {% endif %}
       {% endif %}
     {% endfor %}

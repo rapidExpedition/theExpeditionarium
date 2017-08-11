@@ -2,11 +2,11 @@
 layout: default
 published: true
 title: pranaBindu
+root: ../../
 ---
 
-<small>
-***Note:***
-> *This is a **[WIP](#wip)** and subject to change and further development.*
+> ##### Note:
+>  *This is a **[WIP](#wip)** and subject to change and further development.*
 
 Few things in life are so reliably and universally persistent as stress.  The stress of pain or struggle or trauma of any kind--though perhaps more commonly referred to as suffering, though suffering is but a piece of a larger experience of discomfort within and perhaps uniquely of the human condition--this stress is perhaps the lynchpin upon which we hinge most of our life and work, collectively or individually.  We seek generally and in most of our endeavors to somehow manage our stress, and sometimes we do this by electing to engage in stressful activity on our own terms.
 
@@ -46,22 +46,25 @@ To put it simply, there is much to be gained and little lost in focusing on one 
 
 Beyond that will we discover that to some degree might those disciplines in which one is thoroughly at the level of intermediate benefit from the shift in focus or *rounding out* afforded in other disciplines.  Or at the very least might we clarify the purpose or utility of one discipline by its benefit to the next, or possibly that one discipline above all others might serve to justify and analyze the manifest benefit of the others.  Or more likely will we find all of these possibilities to be the case to different degrees at different times.
 
-# WIP
-This work is as of yet incomplete.  Here are some items which may help to bring it closer to completion:
-- [ ] > A section on *Force*
-  * including a reasoning for why and how it is the most fudamental aspect upon which all others rest.
-  * including clarification on the importance of the barbell to this aspect.
-  * including the manner and benefit of shifting focus to *Form* within and beyond training which emphasizes *Force*.
-- [ ] > A section on *Form*
-  * including reasoning as to why and how it is the most essential aspect upon which all others rely.
-  * including a clarification on the importance of stillrings to this aspect.
-  * including the manner and benefit of shifting focus to *Function* within and beyond training which emphasizes *Form*.
-- [ ] > A section on *Function*
-  * including reasoning as to why and how it is the most diagnostic aspect upon which all others are assessed.
-  * including a clarification on the importance of pankration (with strong emphasis on Jiu-Jitsu) to this aspect.
-  * including the manner and benefit of shifting focus back to *Force* within and beyond training which emphasizes *Function*.
-- [ ] > A discussion of how this cycle should be approached over the course of lifetime (into maturation and later toward and out of one's prime).
-- [ ] > Some attempt at developing a training regimen which might be implemented beyond the novice level (ideally some approach which might cover a person's entire lifetime as an adult).
+> ##### WIP:
+>  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](/siteWiki/contributionGuidelines)*
+
+<!--
+#TODO:0 A section on *Force* id:5
+  #NOTE:1 include a reasoning for why and how it is the most fundamental aspect upon which all others rest. id:5
+  #NOTE:1 include clarification on the importance of the barbell to this aspect. id:5
+  #NOTE:1 include the manner and benefit of shifting focus to *Form* within and beyond training which emphasizes *Force*. id:5
+#TODO:0 A section on *Form* id:7
+  #NOTE:1 include reasoning as to why and how it is the most essential aspect upon which all others rely. id:7
+  #NOTE:1 include a clarification on the importance of stillrings to this aspect. id:7
+  #NOTE:1 include the manner and benefit of shifting focus to *Function* within and beyond training which emphasizes *Form*. id:7
+#TODO:0 A section on *Function* id:6
+  #NOTE:1 include reasoning as to why and how it is the most diagnostic aspect upon which all others are assessed. id:6
+  #NOTE:1 include a clarification on the importance of pankration (with strong emphasis on Jiu-Jitsu) to this aspect. id:6
+  #NOTE:1 include the manner and benefit of shifting focus back to *Force* within and beyond training which emphasizes *Function*. id:6
+#TODO:0 A discussion of how this cycle should be approached over the course of lifetime (into maturation and later toward and out of one's prime). id:2
+#TODO:0 Some attempt at developing a training regimen which might be implemented beyond the novice level (ideally some approach which might cover a person's entire lifetime as an adult). id:4
+-->
 
 ---
 

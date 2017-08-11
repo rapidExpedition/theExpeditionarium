@@ -2,6 +2,7 @@
 layout: default
 published: true
 title: fitRep
+root: ../../
 ---
 
 This project will entail, firstly, the creation of a universal syntax for tracking workouts in plain text, but it will also incorporate an application for the purpose of analyzing data saved in that syntax.  This will be an unbiased and extensible personal fitness-tracking solution with the secondary goal of being adaptable for use in a social media context and particularly in a distributed, non-centralized fashion.
@@ -29,19 +30,19 @@ As such, we can take a cue from WxR and re-purpose markdown's header formatting 
 Commentary might precede or even follow this exercise heading, but what follows it should be formatted as whatever data would generally follow that exercise like so:
 
     Commentary here.
-    
+
     # some exercise
-    
+
     'properly formatted exercise data here'
-    
+
     More commentary here.
 
 However, as a matter of simplicity, we must rely on the exercise header to trigger the recognition of exercise data, as that data cannot stand on its own meaningfully.  The data syntax could stand out from the commentary clearly enough that our specification could assume that any such data following an exercise heading is associated with that exercise, even if interrupted by commentary *interludes* like so:
 
     # some exercise
-    
+
     Commentary here.
-    
+
     'exercise data'
 
 It would perhaps seem that this commentary has some chronological bearing: that commentary before the data regards impressions when just starting (possibly in regard to past experiences with that exercise), commmentary between data comes from impressions or reflections during the rest period, and that commentary after the last data entry under that heading is in closing for that exercise or even the session or simply as a segway to the next exercise.
@@ -49,9 +50,9 @@ It would perhaps seem that this commentary has some chronological bearing: that 
 In any case, commentary might not directly pertain to the dataset before or after it but, rather, might be seen as general commentary; thus, we need the ability to refer directly to data.  We previously referred to this class of text as a *caption*, because it acts relative to the dataset as a typical caption does to an image.  We can easily get away with handling this like WxR does with a bit of a spin by offering two variations:
 
     # some exercise
-    
+
     'some dataset' captioning here.
-    
+
     'some dataset'
     captioning here too.
 
@@ -158,10 +159,10 @@ We can also deal with weight:
     100m/BW+25x2/20.2
 
 This includes adding time to resistance training:
-    
+
     # Paused squats
     225x5/5 <-five second pause squats.
-    
+
     # Timed pull-ups
     BWx100/1'5" <-one hundred unweighted pull-ups in one minute and five seconds.
 
@@ -191,4 +192,3 @@ It should be clear that the intended means inputing a log entry is simply by dra
 However, as the tracker may first come to life on the command line, it could be possible to data through prompts which include tooltips and the ability break from the data's entry to enter comments or captions with a keystroke.
 
 The next step would be standalone app utilizing responsive web design principles (likely using the [Electron Platform](http://electron.atom.io/)).
-

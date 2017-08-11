@@ -17,7 +17,7 @@
           <span class="octicon-octoface" onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')"></span>
 
           <h3 class="masthead-title">
-            <a href="{{ "/" | absolute_url }}" title="Home">{{ site.title }}</a>
+            <a href="{{ root }}{{ "" | relative_url }}" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
         </div>
