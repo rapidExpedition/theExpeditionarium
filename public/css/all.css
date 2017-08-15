@@ -11,7 +11,7 @@
 
 /*
   #DONE: opening up the goToGitHub functionality to work with a regular link instead of just the octicon  id:0
-  #TODO: Figure out how to display the link address in the status bar when hovering over the link and apply that to the [prose](/public/css/prose.css) and [octicon](/public/css/octicons.css) links, as well. id:0
+  #TODO: Figure out how to display the link address in the status bar when hovering over the link and apply that to the [prose](/public/css/prose.css) and [octicon](/public/css/octicons.css) links, as well. +enhancement id:2 gh:3
 */
 
 .link {
