@@ -197,4 +197,4 @@ However, as the tracker may first come to life on the command line, it could be 
 The next step would be standalone app utilizing responsive web design principles (likely using the [Electron Platform](http://electron.atom.io/)).
 
 > ##### WIP:
->  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](/siteWiki/contributionGuidelines)*
+>  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines]({{ page.root }}siteWiki/contributionGuidelines)*

@@ -1,4 +1,5 @@
+[![TODO:](https://badge.waffle.io/rapidExpedition/theExpeditionarium.png?label=ready&title=TODO:)](http://waffle.io/rapidExpedition/theExpeditionarium)
+
 [theExpeditionarium]() is the central hub for the public, collaborative development of the concept of [Rapid Expedition]().  It is the front-end for the explication of the [Expeditionary Philosophy]() at the core of that concept but also of the many potential facets of the practice of that philosophy.
 
 The Expeditionarium's website, [rapidexpedition.org](), is a [static site]() which is deployed from this repository, the details of which are available on the site's [wiki]().  Suffice to say, what source might be contained here-in represents that of the site and its functions.  And while some of the literature also found here generally represents the subject-matter, it does so in the context of the site, except in cases where that content is a [subtree]() retrieved from other repositories; all of which fall under the administration of our [organization]() and should be included in our [master repository]().  Again, more details are available in the [wiki]().
-

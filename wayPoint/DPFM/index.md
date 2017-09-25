@@ -27,4 +27,4 @@ It might also be useful to allow for forking playlists and submitting pull reque
 This might seem a bit complicated for something as simple as a playlist, but considering what playlists are often used for, the construction of one can make or break the mood around an activity very quickly.
 
 > ##### WIP:
->  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](/siteWiki/contributionGuidelines)*
+>  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines]({{ page.root }}siteWiki/contributionGuidelines)*

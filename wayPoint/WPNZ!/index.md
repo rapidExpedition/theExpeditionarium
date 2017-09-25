@@ -17,7 +17,7 @@ Toward this aim might we best immerse ourselves in the mindset with an underlyin
 Chief among the influences behind this publication is the Vorticist<sup id="a1">[1](#f1)</sup> literary magazine, ***BLAST!***<sup id="a2">[2](#f2)</sup>.
 
 > ##### WIP:
->  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](../../siteWiki/contributionGuidelines)*
+>  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](../..{{ page.root }}siteWiki/contributionGuidelines)*
 
 <!--
 #TODO: further elaborate on the specific influences behind ***WPNZ!***, to include the Futurists and their [manifesto](https://en.wikipedia.org/wiki/Manifesto_of_Futurism) id:7

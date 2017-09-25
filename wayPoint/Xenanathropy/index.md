@@ -15,7 +15,7 @@ Some cursory research might reveal the two notions as often erroneously conflate
 For our purposes in this might we aptly refer to that hypothetical common thread as ***Xenanthropy***, or that from which proceeds the *Xenanthrop*<sup id="a2">[2](#f2)</sup>.
 
 > ##### WIP:
->  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](../../siteWiki/contributionGuidelines)*
+>  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](../..{{ page.root }}siteWiki/contributionGuidelines)*
 
 <!--
 #TODO: explain the use of *xen-* versus *post-* or *neo-*, for instance, particularly as it derives from Nietzsche's conception of the Übermensch as a being not fully understandable or relatable (really, wholly alien) from the limits of a human perspective nor relating to a *human, all too human* perspective. id:11

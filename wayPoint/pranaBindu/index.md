@@ -47,7 +47,7 @@ To put it simply, there is much to be gained and little lost in focusing on one 
 Beyond that will we discover that to some degree might those disciplines in which one is thoroughly at the level of intermediate benefit from the shift in focus or *rounding out* afforded in other disciplines.  Or at the very least might we clarify the purpose or utility of one discipline by its benefit to the next, or possibly that one discipline above all others might serve to justify and analyze the manifest benefit of the others.  Or more likely will we find all of these possibilities to be the case to different degrees at different times.
 
 > ##### WIP:
->  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines](/siteWiki/contributionGuidelines)*
+>  *To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible below when <a onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')" title="edit on GitHub" class="link">editing</a>.  Please consult the [contribution guidelines]({{ page.root }}siteWiki/contributionGuidelines)*
 
 <!--
 #TODO:0 A section on *Force* id:5
