@@ -64,6 +64,7 @@ Beyond that will we discover that to some degree might those disciplines in whic
   #NOTE:1 include the manner and benefit of shifting focus back to *Force* within and beyond training which emphasizes *Function*. id:6
 #TODO:0 A discussion of how this cycle should be approached over the course of lifetime (into maturation and later toward and out of one's prime). id:2
 #TODO:0 Some attempt at developing a training regimen which might be implemented beyond the novice level (ideally some approach which might cover a person's entire lifetime as an adult). id:4
+#NOTE: don't forget some reference to [phrakture's work](https://github.com/phrakture/phrakture.github.io), as well as consider referencing and iterating some of his program templates for use in this (also not forgetting the [BWF reddit](https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine), [Starting Strength](https://startingstrength.com/get-started/programs), and [Gracie Combatives](https://www.gracieuniversity.com/course.aspx?enc=vsGdmSaTikLU4BRiE%2fqMwA%3d%3d)) id:22
 -->
 
 ---
