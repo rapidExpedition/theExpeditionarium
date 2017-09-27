@@ -1,0 +1,9 @@
+---
+layout: page
+---
+
+{% capture wikiContent %}{% if page.siteWiki %}{% include siteWiki/{{ page.siteWiki }} %}{% elsif page.wiki %}{% include wiki/{{ page.wiki }} %}{% else %}{{ content }}{% endif %}{% endcapture %}
+{{ wikiContent | markdownify }}
+
+<!-- #DOING: beginning the wiki transclusion project using [this approach](https://github.com/jekyll/jekyll/issues/1303#issuecomment-21067548) as my jumping-off point (though arguably, [this method](https://github.com/shd101wyy/markdown-preview-enhanced/blob/799cfb896e1d8e449fc8686d1b9e9acf6c079a6d/docs/file-imports.md) would be simpler if it worked in Jekyll) +wikiTransclusion id:25
+-->

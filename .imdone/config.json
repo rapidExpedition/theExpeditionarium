@@ -22,6 +22,10 @@
   },
   "lists": [
     {
+      "name": "DOING",
+      "hidden": false
+    },
+    {
       "name": "TODO",
       "hidden": false
     },
