@@ -85,7 +85,7 @@ Alternatively, we can define variables and even manipulate those variables inlin
 
     BWx5
 
-And in a case where one wants to account for an exercise using only partial bodyweight, [like push-ups](https://www.google.com/amp/www.allthingsgym.com/push-up-weight-distribution-percentages/amp/), we can handle it like so:
+And in a case where one wants to account for an exercise using only partial bodyweight, [like push-ups](https://www.allthingsgym.com/push-up-weight-distribution-percentages/), we can handle it like so:
 
     # Push-ups
     0.65BWx5 or
