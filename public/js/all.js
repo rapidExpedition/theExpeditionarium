@@ -59,6 +59,8 @@ function goToGitHub(repo, page) {
     window.location = repo + '/edit/master/' + page;
 }
 
+// TODO: figure out how establish a conditional in which goToGitHub and goToProse direct to the appropriate wiki repo for transcluded articles instead of the page *stubs* in theExpeditionarium repo +wikiTransclusion id:26
+  // NOTE: once accomplished, it'll be fairly trivial to apply the same technique to wayPoint or most other majorly informational pages id:26
 // TODO: Pagination: http://developer.github.com/guides/traversing-with-pagination id:0
 // TODO: OAuth or Caching/Cookies? http://developer.github.com/v3/oauth/ id:1
 // TODO: Make order more random? id:3
