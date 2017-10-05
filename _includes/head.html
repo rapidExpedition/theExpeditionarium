@@ -21,6 +21,10 @@
   -->
   {% capture root %}{% if page.root %}{{ page.root }}{% elsif post.root %}{{ post.root }}{% else %}{{ default.root }}{% endif %}{% endcapture %}
 
+  {% capture repo %}{% if page.wiki %}{{ site.github.orgHub }}{% else %}{{ site.github.repo }}{% endif %}{% endcapture %}
+
+  {% capture wikiPath %}{% if page.wiki %}{{ page.wiki }}{% elsif page.siteWiki %}{{ page.siteWiki }}{% else %}{% endif %}{% endcapture %}
+
   <link rel="stylesheet" href="{{ root }}{{ "public/css/poole.css" | relative_url }}">
   <link rel="stylesheet" href="{{ root }}{{ "public/css/syntax.css" | relative_url }}">
   <link rel="stylesheet" href="{{ root }}{{ "public/css/lanyon.css" | relative_url }}">

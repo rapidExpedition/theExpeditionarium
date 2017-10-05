@@ -13,8 +13,10 @@
       <div class="masthead">
         <div class="container">
           <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-          <span class="ico pencil" onclick="goToProse('{{ site.github.repo }}', '{{ page.path }}')"></span>
-          <span class="octicon-octoface" onclick="goToGitHub('{{ site.github.repo }}', '{{ page.path }}')"></span>
+          {% unless page.wiki or page.siteWiki %}<span class="ico pencil" onclick="goToProse('{{ repo }}', '{{ page.path }}')"></span>
+          <span class="octicon-octoface" onclick="goToGitHub('{{ repo }}', '{{ page.path }}')"></span>
+          {% else %}<span class="octicon-octoface" onclick="goToWiki('{{ repo }}', '{{ wikiPath }}')"></span>
+          {% endunless %}
 
           <h3 class="masthead-title">
             <a href="{{ root }}{{ "" | relative_url }}" title="Home">{{ site.title }}</a>

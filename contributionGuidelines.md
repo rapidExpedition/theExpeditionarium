@@ -1,6 +1,6 @@
 ---
 layout: wikiPage
-siteWiki: contributionGuidelines.md
+siteWiki: /contributionGuidelines
 published: true
 title: Contribution Guidelines
 root: ../

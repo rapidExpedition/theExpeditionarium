@@ -12,4 +12,5 @@
 #IDEA: consider using [CriticMarkup](http://criticmarkup.com/), but probably only if we can figure out how to configure Jekyll to hide that markup when it builds.  It would be useful if [Prose](http://prose.io) or Atom (Atom does have [*some*](https://atom.io/themes/pen-paper-coffee-syntax) [support](https://github.com/shd101wyy/markdown-preview-enhanced/issues/591#issuecomment-326782396)) recognized CriticMarkup, as well, but we'll just have to make do and perhaps [roll our own solution](https://www.rapidexpedition.org/waypoint/rapidex/) in regard to that id:16
   #NOTE: we could suggest that CriticMarkup be used only in pull requests and never merged into the master branch id:16
 #IDEA: [BibTex](http://www.bibtex.org/Using/) support?  We'll have to use the [jekyll plugin](https://github.com/inukshuk/jekyll-scholar) and figure out a good flow for push site builds to gh-pages (which we need to do anyway) id:17
+#TODO: figure out a decent way to make the WIP nonsense part of a template so as to remove it altogether from the wiki article (relegating it to something triggered in the frontmatter) +wikiTransclusion id:27
 -->

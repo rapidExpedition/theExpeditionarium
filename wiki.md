@@ -1,8 +1,8 @@
 ---
 layout: wikiPage
-wiki: Home.md
+wiki: /Home
 published: true
-title: Contribution Guidelines
+title: Home
 root: ../
 ---
 
