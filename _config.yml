@@ -35,7 +35,11 @@ author:
 # Custom vars
 github:
   repo:              https://github.com/rapidExpedition/theExpeditionarium
+  repoWiki: 'siteWiki'
   orgHub: https://github.com/rapidExpedition/rapidExpedition
+  orgHubWiki: 'wiki'
+  projectHub: https://github.com/rapidExpedition/wayPoint
+  projectHubWiki: 'wayPoint'
 
 prose:
   ignore:

@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: wikiPage
+wayPoint: /Home
 title: wayPoint
 published: true
 root: ../
 ---
 
-***wayPoint*** is a virtual incubator for ideas and collaboration.  It is a place to propose and develop ideas openly and publicly in order to attract talent or inspire further development.  The ideas proposed here should ideally range from modest digital utilities to impossibly grand modes of personal and civic life, but all of them should aim at nothing short of a lasting legacy in whatever aspect of culture they contribute to.
+<!--This page is subject to our wiki transclusion guidelines and should only be edited under consideration of such.-->
 
 ## Projects
 

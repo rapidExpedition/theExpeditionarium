@@ -4,3 +4,6 @@
 [submodule "_includes/siteWiki"]
 	path = _includes/siteWiki
 	url = https://github.com/rapidExpedition/theExpeditionarium.wiki.git
+[submodule "_includes/wayPoint"]
+	path = _includes/wayPoint
+	url = https://github.com/rapidExpedition/wayPoint.wiki.git

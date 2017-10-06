@@ -2,8 +2,22 @@
 layout: page
 ---
 
-{% capture wikiContent %}{% if page.siteWiki %}{% include siteWiki{{ page.siteWiki }}.md %}{% elsif page.wiki %}{% include wiki{{ page.wiki }}.md %}{% else %}{{ content }}{% endif %}{% endcapture %}
+<!--{% comment %}{% capture wikiType %}{% if page contains {{ repoWiki }} %}{{ repoWiki }}{% elsif if page contains {{ orgHubWiki }} %}{{ orgHubWiki }}{% elsif if page contains {{ projectHubWiki }} %}{{ projectHubWiki }}{% endif %}{% endcapture %}{% endcomment %}
+#NOTE: failed attempt at generalization here
+-->
+
+{% if page.WIP == true %}{% capture frontWIP %}{% include frontWIP.html %}{% endcapture %}{{ frontWIP | markdownify }}{% endif %}
+
+{% capture wikiContent %}{% if page.siteWiki %}{% include siteWiki{{ page.siteWiki }}.md %}{% elsif page.wayPoint %}{% include wayPoint{{ page.wayPoint }}.md %}{% elsif page.wiki %}{% include wiki{{ page.wiki }}.md %}{% else %}{{ content }}{% endif %}{% endcapture %}
 {{ wikiContent | markdownify }}
 
+{% if page.wayPoint == '/Home' %}{{ content }}{% endif %} <!-- #NOTE: shit need to be generalized
+-->
+
+{% if page.WIP == true %}{% include backWIP.html %}{% endif %}
+
 <!-- #DONE: began the wiki transclusion project using [this approach](https://github.com/jekyll/jekyll/issues/1303#issuecomment-21067548) as my jumping-off point (though arguably, [this method](https://github.com/shd101wyy/markdown-preview-enhanced/blob/799cfb896e1d8e449fc8686d1b9e9acf6c079a6d/docs/file-imports.md) would be simpler if it worked in Jekyll) +wikiTransclusion id:25 gh:10
+#DONE: Utilizing alert templates for WIP pages in the manner illustrated [here](http://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts.html#) +wikiTransclusion
+# DOING: need to generalize this bullshit a bit better.  I've got one idea that can be seen in the [config](/_config.yml) and have numerous attempts to utilize that commented out in [wikiPath](/_includes/wikiPath.html), [repo](/_includes/repo.html), and here, but I haven't found a legal way to do this with liquid yet.  Basically, I would need a generalized YAML frontmatter item in place of our current way of specifying wiki type/path; otherwise I'll just need to separate that into two separate items (the easiest way, really) +wikiTransclusion
+# DOING: getting wayPoint settled into its new form as a wiki and am almost done just as soon as I get the generalization crap figured out +wikiTransclusion
 -->

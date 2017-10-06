@@ -21,15 +21,16 @@
   -->
   {% capture root %}{% if page.root %}{{ page.root }}{% elsif post.root %}{{ post.root }}{% else %}{{ default.root }}{% endif %}{% endcapture %}
 
-  {% capture repo %}{% if page.wiki %}{{ site.github.orgHub }}{% else %}{{ site.github.repo }}{% endif %}{% endcapture %}
+  {% include repo.html %}
 
-  {% capture wikiPath %}{% if page.wiki %}{{ page.wiki }}{% elsif page.siteWiki %}{{ page.siteWiki }}{% else %}{% endif %}{% endcapture %}
+  {% include wikiPath.html %}
 
   <link rel="stylesheet" href="{{ root }}{{ "public/css/poole.css" | relative_url }}">
   <link rel="stylesheet" href="{{ root }}{{ "public/css/syntax.css" | relative_url }}">
   <link rel="stylesheet" href="{{ root }}{{ "public/css/lanyon.css" | relative_url }}">
   <link rel="stylesheet" href="{{ root }}{{ "public/css/prose.css" | relative_url }}">
   <link rel="stylesheet" href="{{ root }}{{ "public/css/octicons.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ root }}{{ "public/css/font-awesome.min.css" | relative_url }}">
   <link rel="stylesheet" href="{{ root }}{{ "public/flexslider/flexslider.css" | relative_url }}">
   <link rel="stylesheet" href="{{ root }}{{ "public/css/all.css" | relative_url }}">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">

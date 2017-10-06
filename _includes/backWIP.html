@@ -1,0 +1,5 @@
+{% include repo.html %}
+
+{% include wikiPath.html %}
+
+{% capture content %}To consult or contribute those tasks yet uncompleted in this document, please refer to the comments visible when <a onclick="goToWiki('{{ repo }}', '{{ wikiPath }}')" title="edit wiki entry on GitHub" class="link">editing the wiki <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>.  Please consult the [contribution guidelines]({{ page.root }}contributionGuidelines) for further elaboration.{% endcapture %}{% capture backWIP %}{% include wip.html %}{% endcapture %}{{ backWIP | markdownify }}

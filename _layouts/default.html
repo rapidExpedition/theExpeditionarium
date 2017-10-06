@@ -13,9 +13,7 @@
       <div class="masthead">
         <div class="container">
           <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-          {% unless page.wiki or page.siteWiki %}<span class="ico pencil" onclick="goToProse('{{ repo }}', '{{ page.path }}')"></span>
-          <span class="octicon-octoface" onclick="goToGitHub('{{ repo }}', '{{ page.path }}')"></span>
-          {% else %}<span class="octicon-octoface" onclick="goToWiki('{{ repo }}', '{{ wikiPath }}')"></span>
+          {% unless page.wiki or page.siteWiki or page.wayPoint %}<span class="ico pencil" onclick="goToProse('{{ repo }}', '{{ page.path }}')" title="edit on Prose.io"></span><span class="octicon-octoface" onclick="goToGitHub('{{ repo }}', '{{ page.path }}')" title="edit on GitHub"></span>{% else %}<span class="octicon-book" onclick="goToWiki('{{ repo }}', '{{ wikiPath }}')" title="edit wiki entry on GitHub"></span>
           {% endunless %}
 
           <h3 class="masthead-title">

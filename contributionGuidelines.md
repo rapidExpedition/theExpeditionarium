@@ -4,6 +4,7 @@ siteWiki: /contributionGuidelines
 published: true
 title: Contribution Guidelines
 root: ../
+WIP: true
 ---
 
-<!--This is to remain empty as per our wiki transclusion guidelines.-->
+<!--This page is subject to our wiki transclusion guidelines and should only be edited under consideration of such.-->
