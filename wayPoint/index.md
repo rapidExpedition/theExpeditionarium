@@ -1,8 +1,8 @@
 ---
 layout: wikiPage
-wayPoint: /Home
+wikiPath: wayPoint/Home
 title: wayPoint
-published: true
+portal: true
 root: ../
 ---
 
@@ -18,3 +18,6 @@ root: ../
    > A simple, open, and versatile toolset for tracking and analyzing physical training.
  * ### [DPFM](./DPFM)
    > A standardized format for assembling audio playlists.
+
+<!-- #TODO: figure out how to transclude the wiki ToC (_sidebar) with its links converted from wiki links to relative ones (possibly just eliminate wiki links in favor of relative altogether if it works on the GH-wiki) +wikiTransclusion id:45
+-->

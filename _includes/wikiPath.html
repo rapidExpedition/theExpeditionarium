@@ -1,5 +1,0 @@
-{% capture wikiPath %}{% if page.wiki %}{{ page.wiki }}{% elsif page.siteWiki %}{{ page.siteWiki }}{% elsif page.wayPoint %}{{ page.wayPoint }}{% else %}{% endif %}{% endcapture %}
-
-<!--{% comment %}{% capture repo %}{% if page.wikiPath contains {{ site.orgHubWiki }} %}{{ page.wikiPath | remove:'/{{ site.orgHubWiki }}' }}{% elsif page.wikiPath contains {{ site.projectHubWiki }} %}{{ page.wikiPath | remove:'/{{ site.projectHubWiki }}' }}{% elsif page.wikiPath contains {{ site.repoWiki }} %}{{ page.wikiPath | remove:'/{{ site.projectHubWiki }}' }}{% endif %}{% endcapture %}{% endcomment %}
-#NOTE: failed attempt at generalization here
--->

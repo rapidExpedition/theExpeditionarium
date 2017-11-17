@@ -22,11 +22,15 @@
   },
   "lists": [
     {
+      "name": "TODO",
+      "hidden": false
+    },
+    {
       "name": "DOING",
       "hidden": false
     },
     {
-      "name": "TODO",
+      "name": "DONE",
       "hidden": false
     },
     {
@@ -35,10 +39,6 @@
     },
     {
       "name": "IDEA",
-      "hidden": false
-    },
-    {
-      "name": "DONE",
       "hidden": false
     }
   ],

@@ -1,0 +1,10 @@
+{% assign dirPath = page.wikiPath | replace_first: '/', '$' | split: '$' | last | prepend: '/' %}
+
+{% capture repoBase %}{% assign repoRemove = site.github.repo | split: '/' | last %}{{ site.github.repo | remove: repoRemove }}{% endcapture %}
+
+{% capture dirName %}{{ page.wikiPath }}{% endcapture %}
+{% assign dirName = dirName | replace_first: '/', '$' | split: '$' | first %}
+
+{% for item in site.github.includeRepos %}{% if item.directory == dirName %}{% assign wikiRepo = repoBase | append: item.name %}{% break %}{% elsif forloop.rindex0 != 0 %}{% continue %}{% else %}{% assign wikiRepo = site.github.repo %}{% break %}{% endif %}{% endfor %}
+
+{% capture wikiOnClick %}onclick="goToWiki('{{ wikiRepo }}', '{{ dirPath }}')"{% endcapture %}

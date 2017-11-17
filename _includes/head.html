@@ -16,14 +16,11 @@
 
   <!-- CSS -->
 
-  <!-- #DONE:0 successfully implimented a new approach to the relative URL issue as per [this post](https://stackoverflow.com/a/8304028/8304877) id:1 +relativization  gh:1
+  <!-- #DONE: successfully implimented a new approach to the relative URL issue as per [this post](https://stackoverflow.com/a/8304028/8304877) id:1 +relativization  gh:1
   #TODO: try defining the root depth by way of categories (wayPoint having "../../", for instance, perhaps defined in [config](/_config.yml), and having categories of *wiki* and *rapidExpedition* and *topLevel* and so on) instead of explicitly denoting the root depth in each file +relativization id:10
   -->
   {% capture root %}{% if page.root %}{{ page.root }}{% elsif post.root %}{{ post.root }}{% else %}{{ default.root }}{% endif %}{% endcapture %}
 
-  {% include repo.html %}
-
-  {% include wikiPath.html %}
 
   <link rel="stylesheet" href="{{ root }}{{ "public/css/poole.css" | relative_url }}">
   <link rel="stylesheet" href="{{ root }}{{ "public/css/syntax.css" | relative_url }}">

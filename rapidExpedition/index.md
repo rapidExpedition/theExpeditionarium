@@ -1,7 +1,7 @@
 ---
 layout: page
 title: rapidExpedition
-published: true
+portal: true
 root: ../
 ---
 
@@ -58,6 +58,7 @@ Thus do we coin the term, ***Rapid Expedition***.
 </p>
 
 <!-- #DONE: Draft a brief synopsis on the subject of +rapidExpedition id:1
+#TODO: migrate this to the rapidExpedition wiki and transclude it along with its sub-directories +wikiTransclusion id:43
 -->
 
 ---
