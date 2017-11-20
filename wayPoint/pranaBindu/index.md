@@ -12,7 +12,7 @@ Few things in life are so reliably and universally persistent as stress.  The st
 
 It is this voluntary inducement of stress which we seek here to clarify.  But to what end might we clarify this? most particularly when we do so as a sort of honing this most valuable of tools.  And so again, valuable for what?  What we will contend here, as we might contend of all valuations, is that we measure such against its capacity for stimulating growth and in its most broad and coherent sense.
 
-In this contention must we take for granted that growth is something integral and worthy of what might be considered a desirable life--the work of demonstrating this being a wholly separate and even more arduous undertaking.  At least here we might provide some rich soil in which to sow the seeds for such an undertaking, and we do so best and most specifically by grounding ourselves firmly in the corporeal<sup id="a1">[1](#f1)</sup>.
+In this contention must we take for granted that growth is something integral and worthy of what might be considered a desirable life--the work of demonstrating this being a wholly separate and even more arduous undertaking.  At least here we might provide some rich soil in which to sow the seeds for such an undertaking, and we do so best and most specifically by grounding ourselves firmly in the corporeal<sup name="a1">[1](#f1)</sup>.
 
 ### About the Title
 
@@ -69,7 +69,7 @@ Beyond that will we discover that to some degree might those disciplines in whic
 
 ---
 
- 1. <small id="f1"> A corporeal grounding, though one hardly to the exclusion of the *cerebral* as in the erroneous sense of a mind/body dichotomy, except insofar as what is most squarely in the cerebral (perhaps that which is most appropriately linguistic or narrative or otherwise somehow extraneous to the self as an organism) would land here only on the periphery of our focus. </small> [↩](#a1)
+ 1. <small name="f1"> A corporeal grounding, though one hardly to the exclusion of the *cerebral* as in the erroneous sense of a mind/body dichotomy, except insofar as what is most squarely in the cerebral (perhaps that which is most appropriately linguistic or narrative or otherwise somehow extraneous to the self as an organism) would land here only on the periphery of our focus. </small> [↩](#a1)
 
  [modusExp]: placeholder
  [c2]: https://g.co/kgs/052LYF
