@@ -1,8 +1,8 @@
 ---
 layout: wikiPage
 WIP: true
-wikiPath: wayPoint/DPFM
-title: DPFM
+wikiPath: wayPoint/wayPoint001
+title: wayPoint001
 root: ../../
 ---
 
