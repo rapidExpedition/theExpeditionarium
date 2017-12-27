@@ -13,6 +13,8 @@
     <p>{{ site.description }}</p>
   </div>
 
+<!-- #TODO: the following (first sidebar-nav item) really requires some generalization, but that might be a task for a broader project which aims at modifying the whole Lanyon template id:42
+-->
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == "Staging Grounds" %} active{% endif %}" href="{{ root }}{{ "stagingGrounds/" | relative_url }}">Staging Grounds</a>
     <a class="sidebar-nav-item{% if page.title == "Blog" %} active{% endif %}" href="{{ root }}{{ "blog/" | relative_url }}">Blog</a>
@@ -31,17 +33,18 @@
     {% assign pages_list = site.pages | sort:"url" %}
     {% for node in pages_list %}
       {% if node.title != null %}
-        {% if node.layout == "page" %}
+        {% if node.portal == true %}
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ root }}{{ node.url | remove_first:'/' }}">{{ node.title }}</a> <!-- #TODO: figure out how to activate the page under which a sub-page is accessed and/or figure out some kind of nesting scheme that's not too cumbersome +sidebarToC +enhancement  id:0 gh:2-->
         {% endif %}
       {% endif %}
     {% endfor %}
 
   </nav>
-
+  <p>
   <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
+        {{ site.license | markdownify}}
   </div>
+  <nav class="sidebar-nav">
+    <small><span class="sidebar-nav-item">Currently <a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">v{{ site.version }}</a></span></small>
+  </nav>
 </div>

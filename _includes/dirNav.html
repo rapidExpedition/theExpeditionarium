@@ -1,0 +1,13 @@
+{% capture title %}
+  {% assign dirDepth = page.root | remove_first:'../' | split: '/' %}
+  {% assign dirLevel = page.root %}
+  {% assign dirNav = '~/' %}
+  {% assign dirLink = '<a href="$">../</a>' %}
+  {% if page.root %}{% for item in dirDepth %}
+    {% assign dirLevel = dirLevel | remove_first:'../' %}
+    {% assign dirNav = dirNav | append: dirLink | replace:'$',dirLevel %}
+  {% endfor %}{% endif %}
+  {{ dirNav }}{{ page.title }}
+{% endcapture %}
+<!--#DONE: going to put some navigation between pages, besides the sidebar
+-->
