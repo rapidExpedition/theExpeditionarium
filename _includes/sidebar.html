@@ -40,10 +40,11 @@
     {% endfor %}
 
   </nav>
-
+  <p>
   <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
+        {{ site.license | markdownify}}
   </div>
+  <nav class="sidebar-nav">
+    <small><span class="sidebar-nav-item">Currently <a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">v{{ site.version }}</a></span></small>
+  </nav>
 </div>

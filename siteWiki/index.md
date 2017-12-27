@@ -1,8 +1,8 @@
 ---
 layout: wikiPage
-wiki: /Home
-published: true
-title: Home
+wikiPath: siteWiki/Home
+title: siteWiki
+portal: true
 root: ../
 ---
 
