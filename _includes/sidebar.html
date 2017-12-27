@@ -42,7 +42,7 @@
   </nav>
   <p>
   <div class="sidebar-item">
-        {{ site.license | markdownify}}
+        {% include license.html %}
   </div>
   <nav class="sidebar-nav">
     <small><span class="sidebar-nav-item">Currently <a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">v{{ site.version }}</a></span></small>

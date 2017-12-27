@@ -43,7 +43,6 @@ github:
       name: wayPoint
 
 version:  "0.2-alpha"
-license:  "[![GitHub license](https://img.shields.io/github/license/rapidExpedition/theExpeditionarium.svg)](https://github.com/rapidExpedition/theExpeditionarium/blob/master/LICENSE)"
 
 prose:
   ignore:
