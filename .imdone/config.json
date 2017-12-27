@@ -17,7 +17,9 @@
       "XXX",
       "IDEA",
       "NOTE",
-      "REVIEW"
+      "REVIEW",
+      "URL",
+      "DOING"
     ]
   },
   "lists": [
@@ -35,6 +37,14 @@
     },
     {
       "name": "DONE",
+      "hidden": false
+    },
+    {
+      "name": "url",
+      "hidden": false
+    },
+    {
+      "name": "DOING",
       "hidden": false
     }
   ],
