@@ -5,7 +5,7 @@
 The Expeditionarium's website, [rapidexpedition.org](https://www.rapidexpedition.org/), is a [static site](https://en.wikipedia.org/wiki/Static_web_page) which is deployed rapidly from this repository, the details of which are available on the site's [wiki](https://github.com/rapidExpedition/theExpeditionarium/wiki).  The content contained here-in represents that of the site and its functions and to no great extent is any of the relevant text of this project generated or otherwise maintained here.  All such content as might be found on the site itself is retrieved from other repositories via submodules in the `_includes` directory; all of which fall under the administration of our [organization](https://github.com/rapidExpedition) and are included in our project's [super repository](https://github.com/rapidExpedition/rapidExpedition).  Again, more details are available in the [wiki](https://github.com/rapidExpedition/theExpeditionarium/wiki).
 
 
-### Template Used Orginally Released under MIT License
+### Template Used Originally Released under MIT License
 
 Copyright (c) 2014 Mark Otto.
 
