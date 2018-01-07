@@ -1,9 +1,9 @@
 {
   "exclude": [
-    "^(node_modules|bower_components|\\.imdone|target|build|dist|logs)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
+    "^(node_modules|bower_components|\\.imdone|target|build|dist|logs|flow-typed)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
   ],
   "watcher": true,
-  "keepEmptyPriority": true,
+  "keepEmptyPriority": false,
   "code": {
     "include_lists": [
       "TODO",
@@ -18,9 +18,11 @@
       "IDEA",
       "NOTE",
       "REVIEW",
-      "URL"
-      "URL",
-      "DOING"
+      "TODO",
+      "DONE",
+      "DOING",
+      "IDEA",
+      "NOTE"
     ]
   },
   "lists": [
@@ -29,15 +31,11 @@
       "hidden": false
     },
     {
-      "name": "DOING",
-      "hidden": false
-    },
-    {
       "name": "DONE",
       "hidden": false
     },
     {
-      "name": "NOTE",
+      "name": "DOING",
       "hidden": false
     },
     {
@@ -45,11 +43,7 @@
       "hidden": false
     },
     {
-      "name": "url",
-      "hidden": false
-    },
-    {
-      "name": "DOING",
+      "name": "NOTE",
       "hidden": false
     }
   ],
@@ -60,17 +54,5 @@
     "pedantic": false,
     "smartLists": true,
     "langPrefix": "language-"
-  },
-  "sync": {
-    "id": "59926d9ee8723b22d092eb37",
-    "name": "theExpeditionarium",
-    "useImdoneioForPriority": true
-  },
-  "meta": {
-    "gh": {
-      "urlTemplate": "https://github.com/rapidExpedition/theExpeditionarium/issues/%s",
-      "titleTemplate": "View github issue %s",
-      "icon": "icon-octoface"
-    }
   }
 }
