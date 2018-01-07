@@ -54,5 +54,10 @@
     "pedantic": false,
     "smartLists": true,
     "langPrefix": "language-"
+  },
+  "sync": {
+    "id": "5a5291e775f64b50c593e35a",
+    "name": "rapidExpedition/theExpeditionarium",
+    "useImdoneioForPriority": true
   }
 }
