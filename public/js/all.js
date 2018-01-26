@@ -67,4 +67,4 @@ function goToWiki(wikiRepo, dirPath) {
 // DONE: experiment with using the same technique applied in #10 in other sections of the site like wayPoint, for instance +wikiTransclusion +enhancement id:30 gh:11
 // TODO: Pagination: http://developer.github.com/guides/traversing-with-pagination id:0
 // TODO: OAuth or Caching/Cookies? http://developer.github.com/v3/oauth/ id:1
-// TODO: Make order more random? id:3
+// TODO: Make order more random? id:3 gh:16
