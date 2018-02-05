@@ -88,5 +88,5 @@ Some of this work will happen as a matter of course on **theExpeditionarium**, b
 [dc]: https://www.reddit.com/r/ipfs/comments/3nzvct/a_tip_for_anyone_generating_ipfs_sites_with/
 [dd]: {{ post.root }}/wayPoint/
 
-<!-- #DONE: need to review these revisions in order to post +blogPost gh:9
+<!-- #DONE: need to review these revisions in order to post +blogPost gh:9 id:19
 -->
