@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Road to Decentralization pt.1
-date: 20180107
+date: 20180623 
 root: ../../../../
 ---
 
