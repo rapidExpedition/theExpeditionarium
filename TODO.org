@@ -1,5 +1,7 @@
 * TODO Version Release Notes 
   Need to port the [[https://github.com/rapidExpedition/theExpeditionarium/releases][release notes from GitHub]] over to the actual site, likely within the blog-roll.
+** TODO Change the version link from a zip file to a link to the version notes 
+   Start with the notes on GitHub, and then change it to the internal notes when those are complete. 
 * TODO Blog Tags 
   Need a page for this; not sure if included in the original Lanyon theme but may find [[http://codinfox.github.io/blog/tags/][this page]] useful as well possibly [[http://codinfox.github.io/blog/categories/][this]]. 
 * TODO OrgMode/imdone integration 
