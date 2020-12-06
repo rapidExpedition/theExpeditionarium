@@ -1,0 +1,14 @@
+* TODO Version Release Notes 
+  Need to port the [[https://github.com/rapidExpedition/theExpeditionarium/releases][release notes from GitHub]] over to the actual site, likely within the blog-roll.
+** TODO Change the version link from a zip file to a link to the version notes 
+   Start with the notes on GitHub, and then change it to the internal notes when those are complete. 
+* TODO Blog Tags 
+  Need a page for this; not sure if included in the original Lanyon theme but may find [[http://codinfox.github.io/blog/tags/][this page]] useful as well possibly [[http://codinfox.github.io/blog/categories/][this]]. 
+* TODO OrgMode/imdone integration 
+  Unfortunately this is not so trivial and will require the service to accept a [[https://github.com/imdone/imdone-atom/issues/382][feature request]], but it should be do-able.
+** TODO imdone/emacs integration 
+   This is a far taller order, but essentially we would need some sort of an elisp that scrapes TODO items (and related items; [[https://www.emacswiki.org/emacs/FixmeMode][this]] should be useful) and displays them in some coherent manner not unlike kanban cards.
+* TODO Port to HUGO 
+  Probably already mentioned this elsewhere, but HUGO would be ideal when compared to Jekyll, partly for its ease of use with IPFS (due to relative links being essentially the default) and partly just for the fact that it uses Go instead of Ruby.  Fortunately a [[https://themes.gohugo.io/lanyon/][port exists]] to make this fairly simple. 
+
+
