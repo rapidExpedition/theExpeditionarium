@@ -43,6 +43,9 @@ github:
       name: wayPoint
 
 version:  "0.2-alpha"
+versionHash: "QmYxyHvTro9xYAYPcJmyXvVHoXfwwU1wYrMRqSSAMGuffo"
+nightlyPubs:  "rapidExpedition.eth"
+gateway: "https://ipfs.fleek.co"
 
 prose:
   ignore:
