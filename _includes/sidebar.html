@@ -44,8 +44,8 @@
   <div class="sidebar-item">
         {% include license.html %}
   </div>
-  <nav class="sidebar-nav">
-      <small>Currently <a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">v{{ site.version }}</a>+<a href="{{ site.gateway }}/ipfs/{{ site.versionHash }}" title="{{ site.versionHash }}" alt="/ipfs/{{ site.versionHash }}"><img style="width:1em; height:1em;" src="{{ site.gateway }}/ipfs/bafkreicncneocapbypwwe3gl47bzvr3pkpxmmobzn7zr2iaz67df4kjeiq" </a></small><br>
-      <small>Nightly: <a href="{{ site.gateway }}/ipns/{{ site.nightlyPubs }}">{{ site.nightlyPubs }}</a></small>
-  </nav>
+  <div class="sidebar-item">
+      <p><small>Currently <a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">v{{ site.version }}</a>+ <a href="{{ site.gateway }}/ipfs/{{ site.versionHash }}" title="{{ site.versionHash }}" alt="/ipfs/{{ site.versionHash }}"><img style="width:1em; height:1em;" src="{{ site.gateway }}/ipfs/bafkreicncneocapbypwwe3gl47bzvr3pkpxmmobzn7zr2iaz67df4kjeiq"</a></small></p>
+      <p><small>Nightly: <a href="{{ site.gateway }}/ipns/{{ site.nightlyPubs }}">{{ site.nightlyPubs }}</a></small></p>
+  </div>
 </div>
