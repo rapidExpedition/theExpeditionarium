@@ -42,10 +42,12 @@ github:
     - directory: wayPoint
       name: wayPoint
 
-version:  "0.3-alpha"
-versionHash: "QmRS8CcuTN8WhBVpnP9EpTs14KSgjcLLX4arpkypzJNopt"
+radicle:
+  org:        "0xc21600e7AbdFee5231A722076745dA458f1b9C8D"
+version:      "0.3-alpha"
+versionHash:  "QmRS8CcuTN8WhBVpnP9EpTs14KSgjcLLX4arpkypzJNopt"
 nightlyPubs:  "rapidExpedition.eth"
-gateway: "https://ipfs.fleek.co"
+gateway:      "https://ipfs.fleek.co"
 
 prose:
   ignore:
